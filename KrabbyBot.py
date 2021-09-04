@@ -1,27 +1,10 @@
-#Copyright (c) 2020 kunjesh07
+#Copyright (c) 2020 Neel18
 
-#Permission is hereby granted, free of charge, to any person obtaining a copy
-#of this software and associated documentation files (the "Software"), to deal
-#in the Software without restriction, including without limitation the rights
-#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-#copies of the Software, and to permit persons to whom the Software is
-#furnished to do so, subject to the following conditions:
-
-#The above copyright notice and this permission notice shall be included in all
-#copies or substantial portions of the Software.
-
-#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-#OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-#SOFTWARE.
 
 #LICENSE   = MIT GitHub
-#__author__= KUNJESH PATEL
-#__email___= kunjesh137@gmail.com
-#__Year____= 2020
+#__author__= NEEL KANANI
+#__email___= neelkanani9999@gmail.com
+#__Year____= 2021
 #Version___= 1.1.0
 
 import datetime
@@ -61,7 +44,7 @@ def bot():
 
     
     if 'start' in incoming_msg or 'Start' in incoming_msg:
-        text = f'🤖 _Hello I Am a Bot, how Can I Help You?_\n\n*Company\'s official number and website :*\n\n📞 : +917041436016\n📱 : _http://krabby.rf.gd/_ \n\n*For any query Contact on below no :*\n\n📞 : +918200398956 (Meet Savaliya )\n\n*For feedback, mail us on below mail id :*\n📧 D20DCE172@charusat.edu.in (Tejas Vaishnav)\n--------------------------------------------------------------------\n\n🚀 *Features*\n\n✅ _Covid-19 info_\n✅ _Youtube Downloader_ \n✅ _Facebook Downloader_ \n✅ _Google Search_ \n✅ _Advice_ \n✅ _wiki Search_\n✅ _weather Information_\n✅ _Quote_\n✅ _Translator_\n\n--------------------------------------------------------------------\n\n🎯 *Upcoming features* 🎯\n\n✅ _Stackoverflow query finder_\n✅ _Voice based query_\n✅ _Torrent link to Google drive link or normal link_\n✅ _Device based location in longitude and latitude_\n✅ _Instagram video Downloader_\n✅ _stocking instagram profile_\n✅ _News_\n\n--------------------------------------------------------------------\n\n_To Display Command Type_ *Menu*\n\n_To help for Command Type_ *Help or help*' 
+        text = f'🤖 _Hello I Am a Bit_Bot, how Can I Help You?_\n\n*Company\'s official number and website :*\n\n📞 : +917041436016\n📱 : _http://krabby.rf.gd/_ \n\n*For any query Contact on below no :*\n\n📞 : +918200398956 (Meet Savaliya )\n\n*For feedback, mail us on below mail id :*\n📧 D20DCE172@charusat.edu.in (Tejas Vaishnav)\n--------------------------------------------------------------------\n\n🚀 *Features*\n\n✅ _Covid-19 info_\n✅ _Youtube Downloader_ \n✅ _Facebook Downloader_ \n✅ _Google Search_ \n✅ _Advice_ \n✅ _wiki Search_\n✅ _weather Information_\n✅ _Quote_\n✅ _Translator_\n\n--------------------------------------------------------------------\n\n🎯 *Upcoming features* 🎯\n\n✅ _Stackoverflow query finder_\n✅ _Voice based query_\n✅ _Torrent link to Google drive link or normal link_\n✅ _Device based location in longitude and latitude_\n✅ _Instagram video Downloader_\n✅ _stocking instagram profile_\n✅ _News_\n\n--------------------------------------------------------------------\n\n_To Display Command Type_ *Menu*\n\n_To help for Command Type_ *Help or help*' 
         msg.body(text)
         responded = True
 
