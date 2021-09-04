@@ -38,7 +38,7 @@ def bot():
     responded = False
 
     if 'about' in incoming_msg or 'About' in incoming_msg:
-        text = f' 🎯🎯Created and Developed by *NEEL KANANI* 📌📌\n*✉️© 2020 NEEL KANANI.  All rights reserved.*📝 '
+        text = f'🎯Created and Developed by *NEEL KANANI*📌\n* © 2020 NEEL KANANI.  All rights reserved.*📝 '
         msg.body(text)
         responded = True
 
