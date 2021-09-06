@@ -154,252 +154,252 @@ def bot():
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-mr' in incoming_msg:
+    if 'TR en-mr' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='mr')
         msg.body(result.text)
         responded = True
 
-    if 'TR-mr-en' in incoming_msg:
+    if 'TR mr-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='mr', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-hi' in incoming_msg:
+    if 'TR en-hi' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='hi')
         msg.body(result.text)
         responded = True
 
-    if 'TR-hi-en' in incoming_msg:
+    if 'TR hi-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='hi', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-kn' in incoming_msg:
+    if 'TR en-kn' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='kn')
         msg.body(result.text)
         responded = True
 
-    if 'TR-kn-en' in incoming_msg:
+    if 'TR kn-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='kn', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-bn' in incoming_msg:
+    if 'TR en-bn' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='bn')
         msg.body(result.text)
         responded = True
 
-    if 'TR-bn-en' in incoming_msg:
+    if 'TR bn-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='bn', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-ta' in incoming_msg:
+    if 'TR en-ta' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='ta')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ta-en' in incoming_msg:
+    if 'TR ta-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ta', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-te' in incoming_msg:
+    if 'TR en-te' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='te')
         msg.body(result.text)
         responded = True
 
-    if 'TR-te-en' in incoming_msg:
+    if 'TR te-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='te', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-ml' in incoming_msg:
+    if 'TR en-ml' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='ml')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ml-en' in incoming_msg:
+    if 'TR ml-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ml', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-pa' in incoming_msg:
+    if 'TR en-pa' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='pa')
         msg.body(result.text)
         responded = True
 
-    if 'TR-pa-en' in incoming_msg:
+    if 'TR pa-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='pa', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-en-ur' in incoming_msg:
+    if 'TR en-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-en' in incoming_msg:
+    if 'TR ur-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='en')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-gu' in incoming_msg:
+    if 'TR ur-gu' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='gu')
         msg.body(result.text)
         responded = True
 
-    if 'TR-gu-ur' in incoming_msg:
+    if 'TR gu-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='gu', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-hi' in incoming_msg:
+    if 'TR ur-hi' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='hi')
         msg.body(result.text)
         responded = True
 
-    if 'TR-hi-ur' in incoming_msg:
+    if 'TR hi-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='hi', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-mr' in incoming_msg:
+    if 'TR ur-mr' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='mr')
         msg.body(result.text)
         responded = True
 
-    if 'TR-mr-ur' in incoming_msg:
+    if 'TR mr-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='mr', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-kn' in incoming_msg:
+    if 'TR ur-kn' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='kn')
         msg.body(result.text)
         responded = True
 
-    if 'TR-kn-ur' in incoming_msg:
+    if 'TR kn-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='kn', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-bn' in incoming_msg:
+    if 'TR ur-bn' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='bn')
         msg.body(result.text)
         responded = True
 
-    if 'TR-bn-ur' in incoming_msg:
+    if 'TR bn-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='bn', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-ta' in incoming_msg:
+    if 'TR ur-ta' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='ta')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ta-ur' in incoming_msg:
+    if 'TR ta-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ta', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-te' in incoming_msg:
+    if 'TR ur-te' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='te')
         msg.body(result.text)
         responded = True
 
-    if 'TR-te-ur' in incoming_msg:
+    if 'TR te-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='te', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-ml' in incoming_msg:
+    if 'TR ur-ml' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='ml')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ml-ur' in incoming_msg:
+    if 'TR ml-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ml', dest='ur')
         msg.body(result.text)
         responded = True
 
-    if 'TR-ur-pa' in incoming_msg:
+    if 'TR ur-pa' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='ur', dest='pa')
         msg.body(result.text)
         responded = True
 
-    if 'TR-pa-ur' in incoming_msg:
+    if 'TR pa-ur' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='pa', dest='ur')
