@@ -140,14 +140,14 @@ def bot():
         msg.body(data)
         responded = True
 
-    if 'TR-en-gu' in incoming_msg:
+    if 'TR en-gu' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='en', dest='gu')
         msg.body(result.text)
         responded = True
 
-    if 'TR-gu-en' in incoming_msg:
+    if 'TR gu-en' in incoming_msg:
         par = incoming_msg[8:]
         translator = Translator()
         result = translator.translate(par, src='gu', dest='en')
